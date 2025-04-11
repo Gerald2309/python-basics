@@ -3,6 +3,14 @@ lista[2] = "Tercer elemento";
 
 print(lista)
 
+#### Ejercicio
+
+frutas = ["banano", "pera", "mango"]
+frutas.append("mora") 
+print("Ejercicio - ")
+print(frutas)
+
+
 tupla = ("Esto es una tupla", "No se puede modificar")
 
 print(tupla)
@@ -20,13 +28,8 @@ diccionario = {
 print(diccionario["nombre"])
 
 diccionario["nombre"] = "Daniel"
-print(diccionario["nombre"])
+
+diccionario.update({"edad" : "85"})
+print(diccionario)
 
 
-#### Ejercicio
-
-frutas = ["banano", "pera", "mango"]
-
-frutas.append("mora") 
-
-print(frutas)
