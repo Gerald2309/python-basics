@@ -21,3 +21,12 @@ print(diccionario["nombre"])
 
 diccionario["nombre"] = "Daniel"
 print(diccionario["nombre"])
+
+
+#### Ejercicio
+
+frutas = ["banano", "pera", "mango"]
+
+frutas.append("mora") 
+
+print(frutas)
